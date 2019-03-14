@@ -1,0 +1,1429 @@
+{
+	"animals": [{
+		"id": 44187370,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/staci-44187370\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Great Pyrenees",
+			"secondary": null,
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Adult",
+		"gender": "Female",
+		"size": "Large",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": false,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": false
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Staci",
+		"description": "Staci is a 2-1\/2 yrs old, 75 lbs, pyr mix. Her dream home has people around throughout the day...loves kids,...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187370\/1\/?bust=1552137797\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187370\/1\/?bust=1552137797\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187370\/1\/?bust=1552137797\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187370\/1\/?bust=1552137797"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187370\/2\/?bust=1552137801\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187370\/2\/?bust=1552137801\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187370\/2\/?bust=1552137801\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187370\/2\/?bust=1552137801"
+		}],
+		"status": "adoptable",
+		"published_at": "2019-03-09T09:48:10+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/44187370"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 44187369,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/alvin-44187369\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Boxer",
+			"secondary": null,
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Baby",
+		"gender": "Male",
+		"size": "Medium",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": false,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": false
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Alvin",
+		"description": "Alvin is a little puppy with a big personality! This silly, happy boy LOVES people... including young children. At only...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187369\/1\/?bust=1552181610\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187369\/1\/?bust=1552181610\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187369\/1\/?bust=1552181610\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187369\/1\/?bust=1552181610"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187369\/2\/?bust=1552181611\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187369\/2\/?bust=1552181611\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187369\/2\/?bust=1552181611\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44187369\/2\/?bust=1552181611"
+		}],
+		"status": "adoptable",
+		"published_at": "2019-03-09T09:48:10+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/44187369"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 44170094,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/shaggy-44170094\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Labrador Retriever",
+			"secondary": null,
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Baby",
+		"gender": "Male",
+		"size": "Medium",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": false,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": false
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Shaggy",
+		"description": "We love his fluffiness and outgoing, social demeanor, but have no idea re: Shaggy\u0026#039;s mix of breeds. At only two...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44170094\/1\/?bust=1552181610\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44170094\/1\/?bust=1552181610\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44170094\/1\/?bust=1552181610\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44170094\/1\/?bust=1552181610"
+		}],
+		"status": "adoptable",
+		"published_at": "2019-03-07T09:48:38+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/44170094"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 44162109,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/missy-44162109\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Great Pyrenees",
+			"secondary": null,
+			"mixed": false,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Adult",
+		"gender": "Female",
+		"size": "Large",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": true,
+			"house_trained": true,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": true
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Missy",
+		"description": "True to her breed, Missy is sweet, gentle and loves everyone. She much prefers being a pet to being a...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44162109\/1\/?bust=1551859153\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44162109\/1\/?bust=1551859153\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44162109\/1\/?bust=1551859153\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44162109\/1\/?bust=1551859153"
+		}],
+		"status": "adoptable",
+		"published_at": "2019-03-06T05:56:38+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/44162109"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 44162108,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/beau-44162108\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Australian Cattle Dog \/ Blue Heeler",
+			"secondary": null,
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Adult",
+		"gender": "Male",
+		"size": "Medium",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": false,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": false
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Beau",
+		"description": "This well-trained, well-behaved, active blue heeler is seeking a home with a person\/family who enjoys the intelligence and activity of...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44162108\/1\/?bust=1551859154\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44162108\/1\/?bust=1551859154\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44162108\/1\/?bust=1551859154\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44162108\/1\/?bust=1551859154"
+		}],
+		"status": "adoptable",
+		"published_at": "2019-03-06T05:56:38+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/44162108"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 44149147,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/nick-44149147\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "German Shepherd Dog",
+			"secondary": null,
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Young",
+		"gender": "Male",
+		"size": "Large",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": true,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": true
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Nick",
+		"description": "This young honey bear is super sweet, funny, loves kisses and is devoted to his people. Great with all dogs...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44149147\/1\/?bust=1551704399\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44149147\/1\/?bust=1551704399\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44149147\/1\/?bust=1551704399\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44149147\/1\/?bust=1551704399"
+		}],
+		"status": "adoptable",
+		"published_at": "2019-03-04T09:53:36+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/44149147"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 44033802,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/glory-44033802\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "American Bulldog",
+			"secondary": null,
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Adult",
+		"gender": "Female",
+		"size": "Large",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": true,
+			"house_trained": true,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": true
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": true
+		},
+		"tags": [],
+		"name": "Glory",
+		"description": "Glory is a very sweet, sensitive, 72 lbs, 3-1\/2 yrs old, gentle bulldog mix who just wants to love, cuddle,...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44033802\/1\/?bust=1550903993\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44033802\/1\/?bust=1550903993\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44033802\/1\/?bust=1550903993\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44033802\/1\/?bust=1550903993"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44033802\/2\/?bust=1550903994\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44033802\/2\/?bust=1550903994\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44033802\/2\/?bust=1550903994\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44033802\/2\/?bust=1550903994"
+		}],
+		"status": "adoptable",
+		"published_at": "2019-02-17T01:19:20+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/44033802"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 44017109,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/elliott-44017109\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Shepherd",
+			"secondary": "Border Collie",
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Baby",
+		"gender": "Male",
+		"size": "Medium",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": false,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": false
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Elliott",
+		"description": "Elliott is a young shepherd\/border collie mix puppy. He and his siblings will be 8 wks old and ready for...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017109\/1\/?bust=1550373329\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017109\/1\/?bust=1550373329\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017109\/1\/?bust=1550373329\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017109\/1\/?bust=1550373329"
+		}],
+		"status": "adopted",
+		"published_at": "2019-02-15T03:33:21+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/44017109"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 44017108,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/eloise-44017108\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Shepherd",
+			"secondary": "Border Collie",
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Baby",
+		"gender": "Female",
+		"size": "Medium",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": false,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": false
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Eloise",
+		"description": "Eloise is a young shepherd\/border collie mix puppy. She and her siblings will be 8 wks old and ready for...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017108\/1\/?bust=1550710902\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017108\/1\/?bust=1550710902\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017108\/1\/?bust=1550710902\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017108\/1\/?bust=1550710902"
+		}],
+		"status": "adopted",
+		"published_at": "2019-02-15T03:33:21+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/44017108"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 44017107,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/eliza-44017107\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Shepherd",
+			"secondary": "Border Collie",
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Baby",
+		"gender": "Female",
+		"size": "Medium",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": false,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": false
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Eliza",
+		"description": "Eliza is a young shepherd\/border collie mix puppy. She and her siblings will be 8 wks old and ready for...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017107\/1\/?bust=1551704400\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017107\/1\/?bust=1551704400\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017107\/1\/?bust=1551704400\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017107\/1\/?bust=1551704400"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017107\/2\/?bust=1551704403\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017107\/2\/?bust=1551704403\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017107\/2\/?bust=1551704403\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017107\/2\/?bust=1551704403"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017107\/3\/?bust=1551704405\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017107\/3\/?bust=1551704405\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017107\/3\/?bust=1551704405\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017107\/3\/?bust=1551704405"
+		}],
+		"status": "adoptable",
+		"published_at": "2019-02-15T03:33:21+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/44017107"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 44017111,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/elias-44017111\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Shepherd",
+			"secondary": "Border Collie",
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Baby",
+		"gender": "Male",
+		"size": "Medium",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": false,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": false
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Elias",
+		"description": "Elias is a young shepherd\/border collie mix puppy. He and his siblings will be 8 wks old and ready for...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017111\/1\/?bust=1551375719\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017111\/1\/?bust=1551375719\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017111\/1\/?bust=1551375719\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017111\/1\/?bust=1551375719"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017111\/2\/?bust=1551375720\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017111\/2\/?bust=1551375720\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017111\/2\/?bust=1551375720\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017111\/2\/?bust=1551375720"
+		}],
+		"status": "adopted",
+		"published_at": "2019-02-15T03:33:21+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/44017111"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 44017110,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/elton-44017110\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Shepherd",
+			"secondary": "Border Collie",
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Baby",
+		"gender": "Male",
+		"size": "Medium",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": false,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": false
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Elton",
+		"description": "Elton is a young shepherd\/border collie mix puppy, so named because he is entertaining and loves to sing. At only...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017110\/1\/?bust=1552137796\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017110\/1\/?bust=1552137796\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017110\/1\/?bust=1552137796\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017110\/1\/?bust=1552137796"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017110\/2\/?bust=1552137800\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017110\/2\/?bust=1552137800\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017110\/2\/?bust=1552137800\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/44017110\/2\/?bust=1552137800"
+		}],
+		"status": "adoptable",
+		"published_at": "2019-02-15T03:33:21+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/44017110"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 43993390,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/macmillan-mac-43993390\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Great Pyrenees",
+			"secondary": null,
+			"mixed": false,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Young",
+		"gender": "Male",
+		"size": "Large",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": false,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": true
+		},
+		"environment": {
+			"children": true,
+			"dogs": true,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Macmillan (Mac)",
+		"description": "Mac was found as a stray with a very deformed and broken back right hind leg which needed to be...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43993390\/1\/?bust=1549939426\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43993390\/1\/?bust=1549939426\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43993390\/1\/?bust=1549939426\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43993390\/1\/?bust=1549939426"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43993390\/2\/?bust=1549939427\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43993390\/2\/?bust=1549939427\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43993390\/2\/?bust=1549939427\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43993390\/2\/?bust=1549939427"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43993390\/3\/?bust=1549939427\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43993390\/3\/?bust=1549939427\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43993390\/3\/?bust=1549939427\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43993390\/3\/?bust=1549939427"
+		}],
+		"status": "adoptable",
+		"published_at": "2019-02-12T00:31:12+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/43993390"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 43917874,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/jayla-43917874\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Anatolian Shepherd",
+			"secondary": null,
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Adult",
+		"gender": "Female",
+		"size": "Medium",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": true,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": false
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Jayla",
+		"description": "Jayla lost her home because her mom had a terminal illness and could no longer care for her. This sweetheart...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43917874\/1\/?bust=1550301267\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43917874\/1\/?bust=1550301267\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43917874\/1\/?bust=1550301267\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43917874\/1\/?bust=1550301267"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43917874\/2\/?bust=1550301268\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43917874\/2\/?bust=1550301268\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43917874\/2\/?bust=1550301268\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43917874\/2\/?bust=1550301268"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43917874\/3\/?bust=1550301269\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43917874\/3\/?bust=1550301269\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43917874\/3\/?bust=1550301269\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43917874\/3\/?bust=1550301269"
+		}],
+		"status": "adopted",
+		"published_at": "2019-02-02T09:05:13+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/43917874"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 43900783,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/max-43900783\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Great Pyrenees",
+			"secondary": "Australian Cattle Dog \/ Blue Heeler",
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Young",
+		"gender": "Male",
+		"size": "Large",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": false,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": false
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Max",
+		"description": "Super sweet \u0026amp;amp; loving, Max is a young, 50 lbs, fluffy guy.",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43900783\/1\/?bust=1548929962\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43900783\/1\/?bust=1548929962\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43900783\/1\/?bust=1548929962\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43900783\/1\/?bust=1548929962"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43900783\/2\/?bust=1548929965\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43900783\/2\/?bust=1548929965\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43900783\/2\/?bust=1548929965\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43900783\/2\/?bust=1548929965"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43900783\/3\/?bust=1548929967\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43900783\/3\/?bust=1548929967\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43900783\/3\/?bust=1548929967\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43900783\/3\/?bust=1548929967"
+		}],
+		"status": "adopted",
+		"published_at": "2019-01-31T06:56:58+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/43900783"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 43893831,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/oliver-43893831\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Border Collie",
+			"secondary": null,
+			"mixed": false,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Young",
+		"gender": "Male",
+		"size": "Medium",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": true,
+			"house_trained": true,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": true
+		},
+		"environment": {
+			"children": false,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Oliver",
+		"description": "Oliver is a 1 yrs old, high energy, border collie who is seeking an active, female adult home. He is...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43893831\/1\/?bust=1552137797\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43893831\/1\/?bust=1552137797\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43893831\/1\/?bust=1552137797\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43893831\/1\/?bust=1552137797"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43893831\/2\/?bust=1552137802\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43893831\/2\/?bust=1552137802\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43893831\/2\/?bust=1552137802\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43893831\/2\/?bust=1552137802"
+		}, {
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43893831\/3\/?bust=1552137803\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43893831\/3\/?bust=1552137803\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43893831\/3\/?bust=1552137803\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43893831\/3\/?bust=1552137803"
+		}],
+		"status": "adoptable",
+		"published_at": "2019-01-30T12:23:52+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/43893831"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 43884891,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/panda-43884891\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Great Pyrenees",
+			"secondary": "Australian Shepherd",
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Adult",
+		"gender": "Female",
+		"size": "Extra Large",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": true,
+			"house_trained": true,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": true
+		},
+		"environment": {
+			"children": true,
+			"dogs": true,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Panda",
+		"description": "Sweet and friendly...raised with children, Panda was not neglected, but overfed! At just over 100 lbs, Panda is looking after...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43884891\/1\/?bust=1552137799\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43884891\/1\/?bust=1552137799\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43884891\/1\/?bust=1552137799\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43884891\/1\/?bust=1552137799"
+		}],
+		"status": "adopted",
+		"published_at": "2019-01-29T06:51:24+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/43884891"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 43791140,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/snowflake-43791140\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Australian Shepherd",
+			"secondary": "Great Pyrenees",
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Baby",
+		"gender": "Female",
+		"size": "Medium",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": false,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": false
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Snowflake",
+		"description": "Snowflake and her litter mates are almost old enough to find their forever homes! At only 2 mos old, for...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43791140\/1\/?bust=1549108477\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43791140\/1\/?bust=1549108477\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43791140\/1\/?bust=1549108477\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43791140\/1\/?bust=1549108477"
+		}],
+		"status": "adopted",
+		"published_at": "2019-01-17T04:40:51+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/43791140"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 43791142,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/ice-43791142\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Australian Shepherd",
+			"secondary": "Great Pyrenees",
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Baby",
+		"gender": "Male",
+		"size": "Medium",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": false,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": false
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Ice",
+		"description": "Ice and his litter mates are almost old enough to find their forever homes! At only 2 mos old, for...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43791142\/1\/?bust=1548929963\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43791142\/1\/?bust=1548929963\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43791142\/1\/?bust=1548929963\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43791142\/1\/?bust=1548929963"
+		}],
+		"status": "adopted",
+		"published_at": "2019-01-17T04:40:51+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/43791142"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}, {
+		"id": 43791141,
+		"organization_id": "CO395",
+		"url": "https:\/\/www.petfinder.com\/dog\/snowball-43791141\/co\/winter-park\/mountain-pet-rescue-co395\/?referrer_id=2f9b8494-3790-4c69-a667-d2dc55f08876",
+		"type": "Dog",
+		"species": "Dog",
+		"breeds": {
+			"primary": "Australian Shepherd",
+			"secondary": "Great Pyrenees",
+			"mixed": true,
+			"unknown": false
+		},
+		"colors": {
+			"primary": null,
+			"secondary": null,
+			"tertiary": null
+		},
+		"age": "Baby",
+		"gender": "Male",
+		"size": "Medium",
+		"coat": null,
+		"attributes": {
+			"spayed_neutered": false,
+			"house_trained": false,
+			"declawed": null,
+			"special_needs": false,
+			"shots_current": false
+		},
+		"environment": {
+			"children": null,
+			"dogs": null,
+			"cats": null
+		},
+		"tags": [],
+		"name": "Snowball",
+		"description": "Snowball and his litter mates are almost old enough to find their forever homes! At only 2 mos old, for...",
+		"photos": [{
+			"small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43791141\/1\/?bust=1548641432\u0026width=100",
+			"medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43791141\/1\/?bust=1548641432\u0026width=300",
+			"large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43791141\/1\/?bust=1548641432\u0026width=600",
+			"full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/43791141\/1\/?bust=1548641432"
+		}],
+		"status": "adopted",
+		"published_at": "2019-01-17T04:40:51+0000",
+		"contact": {
+			"email": "mountainpetrescue@gmail.com",
+			"phone": "970-281-7381  ",
+			"address": {
+				"address1": null,
+				"address2": null,
+				"city": "Winter Park",
+				"state": "CO",
+				"postcode": "80482",
+				"country": "US"
+			}
+		},
+		"_links": {
+			"self": {
+				"href": "\/v2\/animals\/43791141"
+			},
+			"type": {
+				"href": "\/v2\/types\/dog"
+			},
+			"organization": {
+				"href": "\/v2\/organizations\/co395"
+			}
+		}
+	}],
+	"pagination": {
+		"count_per_page": 20,
+		"total_count": 1120,
+		"current_page": 1,
+		"total_pages": 56,
+		"_links": {
+			"next": {
+				"href": "\/v2\/animals?organization=CO395\u0026page=2"
+			}
+		}
+	}
+}
