@@ -10,7 +10,7 @@ const QuizAnswerOption = ({ option, activeSelection, makeSelection, icon }) => (
         onClick={makeSelection}
     >
         <div className="icon-container">
-            <img src={icon} />
+            <img className="question-icon" src={icon} />
         </div>
         <div className="option-text">{option}</div>
     </div>

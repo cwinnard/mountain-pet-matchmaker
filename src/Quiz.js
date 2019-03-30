@@ -42,7 +42,7 @@ class Quiz extends Component {
                                             key={`${question.key}-${option}`}
                                             option={option.text}
                                             activeSelection={this.state[question.key]}
-                                            makeSelection={() => { this.answerQuestion(question.key, option) }}
+                                            makeSelection={() => { this.answerQuestion(question.key, option.text) }}
                                             icon={option.icon || ''}
                                         />
                                     ))}

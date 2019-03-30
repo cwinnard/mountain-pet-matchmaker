@@ -1,4 +1,11 @@
-import houseIcon from '../icons/house.svg';
+import houseIcon from '../icons/house.png';
+import fenceIcon from '../icons/fence.png';
+import apartmentIcon from '../icons/apartment.png';
+
+import kidIcon from '../icons/kids.png';
+import petsIcon from '../icons/pets.png'
+import bothIcon from '../icons/both.png';
+import neitherIcon from '../icons/neither.png';
 
 const ages = {
     PUPPY: 'puppy',
@@ -13,8 +20,8 @@ export const aboutYouQuestions = [
         key: 'livingSituation',
         options: [
             {text: 'House1', icon: houseIcon},
-            {text: 'House2', icon: houseIcon},
-            {text: 'Apartment', icon: houseIcon},
+            {text: 'House2', icon: fenceIcon},
+            {text: 'Apartment', icon: apartmentIcon},
         ],
     },
     {
@@ -22,10 +29,10 @@ export const aboutYouQuestions = [
         text: 'Do you have other kids or pets?',
         key: 'kidsAndPets',
         options: [
-            'kids',
-            'pets',
-            'both',
-            'neither'
+            {text: 'kids', icon: kidIcon},
+            {text: 'pets', icon: petsIcon},
+            {text: 'both', icon: bothIcon},
+            {text: 'neither', icon: neitherIcon},
         ]
     },
     {
