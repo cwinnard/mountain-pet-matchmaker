@@ -1,3 +1,5 @@
+import houseIcon from '../icons/house.svg';
+
 const ages = {
     PUPPY: 'puppy',
     ADULT: 'adult',
@@ -10,10 +12,10 @@ export const aboutYouQuestions = [
         text: 'What is your living situation?',
         key: 'livingSituation',
         options: [
-            'House1',
-            'House2',
-            'Apartment'
-        ]
+            {text: 'House1', icon: houseIcon},
+            {text: 'House2', icon: houseIcon},
+            {text: 'Apartment', icon: houseIcon},
+        ],
     },
     {
         number: 2,

@@ -1,5 +1,4 @@
 import { Stepper, Step, StepLabel } from '@material-ui/core';
-import PersonIcon from '@material-ui/icons/Person';
 import React, { Component } from 'react';
 
 import QuizAnswerOption from './QuizAnswerOption';
@@ -41,9 +40,10 @@ class Quiz extends Component {
                                     {question.options.map((option) => (
                                         <QuizAnswerOption
                                             key={`${question.key}-${option}`}
-                                            option={option}
+                                            option={option.text}
                                             activeSelection={this.state[question.key]}
                                             makeSelection={() => { this.answerQuestion(question.key, option) }}
+                                            icon={option.icon || ''}
                                         />
                                     ))}
                                 </div>
