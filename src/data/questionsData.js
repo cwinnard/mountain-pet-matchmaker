@@ -17,6 +17,10 @@ import seniorIcon from '../icons/senior.png';
 
 import dogIcon from '../icons/dog.png';
 
+import sleepingDogIcon from '../icons/sleepingDog.png';
+import dogParkIcon from '../icons/dogPark.png';
+import trainingIcon from '../icons/training.png';
+
 const ages = {
     PUPPY: 'puppy',
     ADULT: 'adult',
@@ -83,9 +87,9 @@ export const aboutDogQuestions = [
         text: 'What level of time commitment are you interested in?',
         key: 'commitment',
         options: [
-            'small',
-            'medium',
-            'large'
+            {text: 'minmial', icon: sleepingDogIcon},
+            {text: 'exercise', icon: dogParkIcon},
+            {text: 'active training', icon: trainingIcon},
         ]
     }
 ];
