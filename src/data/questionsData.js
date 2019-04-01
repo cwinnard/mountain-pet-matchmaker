@@ -7,6 +7,16 @@ import petsIcon from '../icons/pets.png'
 import bothIcon from '../icons/both.png';
 import neitherIcon from '../icons/neither.png';
 
+import couchIcon from '../icons/couch.png';
+import walkIcon from '../icons/walk.png';
+import runIcon from '../icons/run.png';
+
+import pacifierIcon from '../icons/pacifier.png';
+import collarIcon from '../icons/collar.png';
+import seniorIcon from '../icons/senior.png';
+
+import dogIcon from '../icons/dog.png';
+
 const ages = {
     PUPPY: 'puppy',
     ADULT: 'adult',
@@ -40,9 +50,9 @@ export const aboutYouQuestions = [
         text: 'How active is your lifestyle?',
         key: 'activityLevel',
         options: [
-            'low',
-            'medium',
-            'high'
+            {text: 'low', icon: couchIcon},
+            {text: 'moderate', icon: walkIcon},
+            {text: 'high', icon: runIcon},
         ]
     }
 ];
@@ -53,9 +63,9 @@ export const aboutDogQuestions = [
         text: 'How old of a dog are you looking for?',
         key: 'dogAge',
         options: [
-            ages.PUPPY,
-            ages.ADULT,
-            ages.SENIOR
+            {text: 'puppy', icon: pacifierIcon},
+            {text: 'adult', icon: collarIcon},
+            {text: 'senior', icon: seniorIcon},
         ]
     },
     {
@@ -63,9 +73,9 @@ export const aboutDogQuestions = [
         text: 'What size?',
         key: 'dogSize',
         options: [
-            'small',
-            'medium',
-            'large'
+            {text: 'small', icon: dogIcon},
+            {text: 'medium', icon: dogIcon},
+            {text: 'large', icon: dogIcon},
         ]
     },
     {

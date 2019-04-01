@@ -39,7 +39,7 @@ class Quiz extends Component {
                                 <div className="options-container">
                                     {question.options.map((option) => (
                                         <QuizAnswerOption
-                                            key={`${question.key}-${option}`}
+                                            key={`${question.key}-${option.text}`}
                                             option={option.text}
                                             activeSelection={this.state[question.key]}
                                             makeSelection={() => { this.answerQuestion(question.key, option.text) }}
@@ -59,10 +59,11 @@ class Quiz extends Component {
                                 <div className="options-container">
                                     {question.options.map((option) => (
                                         <QuizAnswerOption
-                                            key={`${question.key}-${option}`}
-                                            option={option}
+                                            key={`${question.key}-${option.text}`}
+                                            option={option.text}
                                             activeSelection={this.state[question.key]}
-                                            makeSelection={() => { this.answerQuestion(question.key, option) }}
+                                            makeSelection={() => { this.answerQuestion(question.key, option.text) }}
+                                            icon={option.icon || ''}
                                         />
                                     ))}
                                 </div>
