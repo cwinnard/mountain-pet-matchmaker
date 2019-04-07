@@ -4,6 +4,10 @@
     flex-wrap: wrap;
 }
 
+.hidden {
+    display: none;
+}
+
 .about-you, .about-dog {
     margin: 0 auto;
     text-align: center;

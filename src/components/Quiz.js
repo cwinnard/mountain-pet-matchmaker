@@ -15,11 +15,11 @@ class Quiz extends Component {
         dogAge: '',
         dogSize: '',
         commitment: '',
-    }
+    };
 
     changeActiveQuestion(direction) {
-        this.setState(prevState => ({ activeQuestion: prevState.activeQuestion + direction }))
-    }
+        this.setState(prevState => ({ activeQuestion: prevState.activeQuestion + direction }));
+    };
 
     answerQuestion(key, response) {
         this.setState(prevState => {
@@ -28,7 +28,7 @@ class Quiz extends Component {
             newState.activeQuestion = prevState.activeQuestion + 1;
             return newState;
         });
-    }
+    };
 
     render() {
         const allQuestions = aboutYouQuestions.concat(aboutDogQuestions);
@@ -36,7 +36,7 @@ class Quiz extends Component {
             <div className="quiz">
                 <div className="questions-container">
                     {allQuestions.map((question, index) => (
-                        <QuizQuestion activeQuestion={1} activeWhen={index}>
+                        <QuizQuestion activeQuestion={this.state.activeQuestion} activeWhen={index}>
                             <div className={`question ${question.key}`} key={question.key}>
                                 <div className="text">
                                     {question.text}
