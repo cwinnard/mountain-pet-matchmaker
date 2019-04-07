@@ -2,6 +2,7 @@ import { Stepper, Step, StepLabel } from '@material-ui/core';
 import React, { Component } from 'react';
 
 import QuizAnswerOption from './QuizAnswerOption';
+import QuizQuestion from './QuizQuestion';
 
 import { aboutYouQuestions, aboutDogQuestions } from '../data/questionsData';
 
@@ -27,11 +28,13 @@ class Quiz extends Component {
     }
 
     render() {
+        const allQuestions = aboutYouQuestions.concat(aboutDogQuestions);
         return (
             <div className="quiz">
+                <QuizQuestion>testerino</QuizQuestion>
                 <div className="questions-container">
-                    <div className="about-you">
-                        {this.state.activeQuestion >= 1 && aboutYouQuestions.map((question) => (
+                    {allQuestions.map((question) => (
+                        <QuizQuestion>
                             <div className={`question ${question.key}`} key={question.key}>
                                 <div className="text">
                                     {question.text}
@@ -48,28 +51,8 @@ class Quiz extends Component {
                                     ))}
                                 </div>
                             </div>
-                        ))}
-                    </div>
-                    <div className="about-dog">
-                        {this.state.activeQuestion === 2 && aboutDogQuestions.map((question) => (
-                            <div className={`question ${question.text}`}>
-                                <div className="text">
-                                    {question.text}
-                                </div>
-                                <div className="options-container">
-                                    {question.options.map((option) => (
-                                        <QuizAnswerOption
-                                            key={`${question.key}-${option.text}`}
-                                            option={option.text}
-                                            activeSelection={this.state[question.key]}
-                                            makeSelection={() => { this.answerQuestion(question.key, option.text) }}
-                                            icon={option.icon || ''}
-                                        />
-                                    ))}
-                                </div>
-                            </div>
-                        ))}
-                    </div>
+                        </QuizQuestion>
+                    ))}
                 </div>
                 <div className="buttons-container">
                     <button onClick={() => { this.changeActiveQuestion(-1) }}>back</button>

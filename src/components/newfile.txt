@@ -1,0 +1,41 @@
+<div className="about-you">
+    {this.state.activeQuestion >= 1 && aboutYouQuestions.map((question) => (
+        <div className={`question ${question.key}`} key={question.key}>
+            <div className="text">
+                {question.text}
+            </div>
+            <div className="options-container">
+                {question.options.map((option) => (
+                    <QuizAnswerOption
+                        key={`${question.key}-${option.text}`}
+                        option={option.text}
+                        activeSelection={this.state[question.key]}
+                        makeSelection={() => { this.answerQuestion(question.key, option.text) }}
+                        icon={option.icon || ''}
+                    />
+                ))}
+            </div>
+        </div>
+    ))}
+</div>
+<div className="about-dog">
+    {this.state.activeQuestion === 2 && aboutDogQuestions.map((question) => (
+        <div className={`question ${question.text}`}>
+            <div className="text">
+                {question.text}
+            </div>
+            <div className="options-container">
+                {question.options.map((option) => (
+                    <QuizAnswerOption
+                        key={`${question.key}-${option.text}`}
+                        option={option.text}
+                        activeSelection={this.state[question.key]}
+                        makeSelection={() => { this.answerQuestion(question.key, option.text) }}
+                        icon={option.icon || ''}
+                    />
+                ))}
+            </div>
+        </div>
+    ))}
+</div>
+</div>
