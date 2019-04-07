@@ -1,8 +1,5 @@
 import React from 'react';
 
-import PersonIcon from '@material-ui/icons/Person';
-
-
 
 const QuizAnswerOption = ({ option, activeSelection, makeSelection, icon }) => (
     <div
@@ -10,7 +7,7 @@ const QuizAnswerOption = ({ option, activeSelection, makeSelection, icon }) => (
         onClick={makeSelection}
     >
         <div className="icon-container">
-            <img className={`question-icon ${option}`} src={icon} />
+            <img className={`question-icon ${option}`} src={icon} alt={`${option} icon`}/>
         </div>
         <div className="option-text">{option}</div>
     </div>

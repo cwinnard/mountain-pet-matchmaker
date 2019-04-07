@@ -1,10 +1,10 @@
 import { Card, CardContent, CardMedia } from '@material-ui/core';
 import React, { Component } from 'react';
-import './app.css';
+import './styles/app.css';
 
-import Quiz from './Quiz';
+import Quiz from './components/Quiz';
 
-import getDogInfo from './informationGatherer';
+import getDogInfo from './data/informationGatherer';
 import json from './data/mpr-dogs-3-13.json';
 
 class App extends Component {

@@ -21,12 +21,6 @@ import sleepingDogIcon from '../icons/sleepingDog.png';
 import dogParkIcon from '../icons/dogPark.png';
 import trainingIcon from '../icons/training.png';
 
-const ages = {
-    PUPPY: 'puppy',
-    ADULT: 'adult',
-    SENIOR: 'senior'
-}
-
 export const aboutYouQuestions = [
     {
         number: 1,

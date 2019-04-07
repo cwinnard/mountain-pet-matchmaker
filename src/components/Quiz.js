@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 import QuizAnswerOption from './QuizAnswerOption';
 
-import { aboutYouQuestions, aboutDogQuestions } from './data/questionsData';
+import { aboutYouQuestions, aboutDogQuestions } from '../data/questionsData';
 
 class Quiz extends Component {
     state = {
