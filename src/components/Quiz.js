@@ -33,11 +33,12 @@ class Quiz extends Component {
 
     scroll(activeQuestion) {
         const activeElement = document.getElementById(`question-${activeQuestion}`);
-        setTimeout(function () {
-            const offset = activeElement.offsetTop;
-            console.log(offset);
-            window.scrollTo({ top: offset, behavior: 'smooth' });
-        }, 200);
+        if (activeElement) {
+            setTimeout(function () {
+                const offset = activeElement.offsetTop;
+                window.scrollTo({ top: offset, behavior: 'smooth' });
+            }, 200);
+        }
     };
 
     render() {
