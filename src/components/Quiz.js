@@ -26,8 +26,18 @@ class Quiz extends Component {
             const newState = prevState;
             newState[key] = response;
             newState.activeQuestion = prevState.activeQuestion + 1;
+            this.scroll(newState.activeQuestion);
             return newState;
         });
+    };
+
+    scroll(activeQuestion) {
+        const activeElement = document.getElementById(`question-${activeQuestion}`);
+        setTimeout(function () {
+            const offset = activeElement.offsetTop;
+            console.log(offset);
+            window.scrollTo({ top: offset, behavior: 'smooth' });
+        }, 200);
     };
 
     render() {
@@ -56,18 +66,6 @@ class Quiz extends Component {
                         </QuizQuestion>
                     ))}
                 </div>
-                <div className="buttons-container">
-                    <button onClick={() => { this.changeActiveQuestion(-1) }}>back</button>
-                    <button onClick={() => { this.changeActiveQuestion(1) }}>next</button>
-                </div>
-                <Stepper activeStep={this.state.activeQuestion - 1}>
-                    <Step>
-                        <StepLabel>About You</StepLabel>
-                    </Step>
-                    <Step>
-                        <StepLabel>About Dog</StepLabel>
-                    </Step>
-                </Stepper>
             </div>
         )
     }

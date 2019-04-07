@@ -1,3 +1,9 @@
+.quiz {
+    position: absolute;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
 .questions-container {
     display: flex;
     flex-direction: row;

@@ -16,7 +16,7 @@ const determineStatusClassName = (activeQuestion, activeWhen) => {
 const QuizQuestion = ({ activeQuestion, activeWhen, children }) => {
     const statusClassName = determineStatusClassName(activeQuestion, activeWhen);
     return (
-        <div className={`quiz-question ${statusClassName}`}>
+        <div id={`question-${activeWhen}`} className={`quiz-question ${statusClassName}`}>
             {children}
         </div>
     )
