@@ -1,7 +1,7 @@
 .quiz {
     position: relative;
     max-width: 768px;
-    margin: 0 auto;
+    margin: 50px auto;
     background-color: #D9F0FF;
 }
 
@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .hidden {
