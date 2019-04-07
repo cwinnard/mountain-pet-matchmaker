@@ -1,10 +1,12 @@
 import React from 'react';
 
 
-const QuizQuestion = ({ children }) => (
-    <div>
-        {children}
-    </div>
-)
+const QuizQuestion = ({ activeQuestion, activeWhen, children }) => {
+    return (
+        <div>
+            {children}
+        </div>
+    )
+}
 
 export default QuizQuestion;

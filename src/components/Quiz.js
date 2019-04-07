@@ -8,7 +8,7 @@ import { aboutYouQuestions, aboutDogQuestions } from '../data/questionsData';
 
 class Quiz extends Component {
     state = {
-        activeQuestion: 1,
+        activeQuestion: 0,
         livingSituation: '',
         kidsAndPets: '',
         activityLevel: '',
@@ -22,19 +22,21 @@ class Quiz extends Component {
     }
 
     answerQuestion(key, response) {
-        const newState = { ...this.state };
-        newState[key] = response;
-        this.setState(newState);
+        this.setState(prevState => {
+            const newState = prevState;
+            newState[key] = response;
+            newState.activeQuestion = prevState.activeQuestion + 1;
+            return newState;
+        });
     }
 
     render() {
         const allQuestions = aboutYouQuestions.concat(aboutDogQuestions);
         return (
             <div className="quiz">
-                <QuizQuestion>testerino</QuizQuestion>
                 <div className="questions-container">
-                    {allQuestions.map((question) => (
-                        <QuizQuestion>
+                    {allQuestions.map((question, index) => (
+                        <QuizQuestion activeQuestion={1} activeWhen={index}>
                             <div className={`question ${question.key}`} key={question.key}>
                                 <div className="text">
                                     {question.text}
