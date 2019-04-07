@@ -1,5 +1,5 @@
 .quiz {
-    position: absolute;
+    position: relative;
     max-width: 768px;
     margin: 0 auto;
 }
@@ -11,7 +11,8 @@
 }
 
 .hidden {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
 }
 
 .about-you, .about-dog {
@@ -22,6 +23,10 @@
 
 .text {
     font-weight: bold;
+}
+
+.quiz-question {
+    transition: 350ms ease all;
 }
 
 .options-container {

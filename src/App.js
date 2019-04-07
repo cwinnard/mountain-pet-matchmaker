@@ -15,7 +15,7 @@ class App extends Component {
     render() {
         const dogInfo = getDogInfo(json);
         return (
-            <div className="App">
+            <div className="app-container">
                 {this.state.phase === 0 && <Quiz />}
                 {this.state.phase > 0 &&
                     dogInfo.map((info) => (
