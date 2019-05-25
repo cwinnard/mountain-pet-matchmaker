@@ -8,7 +8,7 @@ import { aboutYouQuestions, aboutDogQuestions } from '../data/questionsData';
 
 class Quiz extends Component {
     state = {
-        activeQuestion: 0,
+        activeQuestion: 1,
         livingSituation: '',
         kidsAndPets: '',
         activityLevel: '',
@@ -33,10 +33,10 @@ class Quiz extends Component {
 
     scroll(activeQuestion) {
         const containerEl = document.getElementById('scroll-container');
-        const activeEl = document.getElementById(`scroll-item ${activeQuestion}`);
+        const activeEl = document.getElementById(`scroll-item ${activeQuestion - 1}`);
         if (activeEl) {
             setTimeout(function () {
-                containerEl.scrollTop = activeEl.offsetTop - 50;
+                containerEl.scrollTop = activeEl.offsetTop + 25;
             }, 200);
         }
     };
@@ -47,9 +47,12 @@ class Quiz extends Component {
             <div className="quiz">
                 <div className="questions-container">
                     <div id="scroll-container" className="scroll-container">
+                        <div id="scroll-item 0" className="scroll-item quiz-questions-title">
+                            Meet your match!
+                        </div>
                         {allQuestions.map((question, index) => (
-                            <div id={`scroll-item ${index}`} className="scroll-item">
-                                <QuizQuestion activeQuestion={this.state.activeQuestion} activeWhen={index}>
+                            <div id={`scroll-item ${index + 1}`} className="scroll-item">
+                                <QuizQuestion activeQuestion={this.state.activeQuestion} activeWhen={index + 1}>
                                     <div className={`question ${question.key}`} key={question.key}>
                                         <div className="text">
                                             {question.text}
@@ -69,6 +72,7 @@ class Quiz extends Component {
                                 </QuizQuestion>
                             </div>
                         ))}
+                        <div className="bottom-spacer" />
                     </div>
                 </div>
             </div>
