@@ -32,11 +32,11 @@ class Quiz extends Component {
     };
 
     scroll(activeQuestion) {
-        const activeElement = document.getElementById(`question-${activeQuestion}`);
-        if (activeElement) {
+        const containerEl = document.getElementById('scroll-container');
+        const activeEl = document.getElementById(`question-${activeQuestion}`);
+        if (activeEl) {
             setTimeout(function () {
-                const offset = activeElement.offsetTop;
-                window.scrollTo({ top: offset, behavior: 'smooth' });
+                containerEl.scrollTop = activeEl.offsetTop;
             }, 200);
         }
     };
