@@ -46,26 +46,28 @@ class Quiz extends Component {
         return (
             <div className="quiz">
                 <div className="questions-container">
-                    {allQuestions.map((question, index) => (
-                        <QuizQuestion activeQuestion={this.state.activeQuestion} activeWhen={index}>
-                            <div className={`question ${question.key}`} key={question.key}>
-                                <div className="text">
-                                    {question.text}
+                    <div id="scroll-container" className="scroll-container">
+                        {allQuestions.map((question, index) => (
+                            <QuizQuestion activeQuestion={this.state.activeQuestion} activeWhen={index}>
+                                <div className={`question ${question.key}`} key={question.key}>
+                                    <div className="text">
+                                        {question.text}
+                                    </div>
+                                    <div className="options-container">
+                                        {question.options.map((option) => (
+                                            <QuizAnswerOption
+                                                key={`${question.key}-${option.text}`}
+                                                option={option.text}
+                                                activeSelection={this.state[question.key]}
+                                                makeSelection={() => { this.answerQuestion(question.key, option.text) }}
+                                                icon={option.icon || ''}
+                                            />
+                                        ))}
+                                    </div>
                                 </div>
-                                <div className="options-container">
-                                    {question.options.map((option) => (
-                                        <QuizAnswerOption
-                                            key={`${question.key}-${option.text}`}
-                                            option={option.text}
-                                            activeSelection={this.state[question.key]}
-                                            makeSelection={() => { this.answerQuestion(question.key, option.text) }}
-                                            icon={option.icon || ''}
-                                        />
-                                    ))}
-                                </div>
-                            </div>
-                        </QuizQuestion>
-                    ))}
+                            </QuizQuestion>
+                        ))}
+                    </div>
                 </div>
             </div>
         )

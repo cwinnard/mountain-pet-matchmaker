@@ -1,17 +1,23 @@
 .quiz {
-    position: relative;
     max-width: 768px;
     margin: 50px auto;
     background-color: #D9F0FF;
 }
 
 .questions-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 20px; */
+}
+
+.scroll-container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    overflow-y: scroll;
 }
 
 .hidden {
@@ -22,7 +28,6 @@
 .about-you, .about-dog {
     margin: 0 auto;
     text-align: center;
-    position: relative;
 }
 
 .text {
