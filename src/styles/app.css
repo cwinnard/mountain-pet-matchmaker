@@ -38,6 +38,7 @@
 .quiz-question {
     transition: 350ms ease all;
     text-align: center;
+    padding-top: 20px;
 }
 
 .options-container {
