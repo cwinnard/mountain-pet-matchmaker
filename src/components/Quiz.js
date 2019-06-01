@@ -74,6 +74,11 @@ class Quiz extends Component {
                         ))}
                         <div className="bottom-spacer" />
                     </div>
+                    <div className="submit-container">
+                        <button type="button" className="submit-button" onClick={() => {console.log('hi');}}>
+                            Get match
+                        </button>
+                    </div>
                 </div>
             </div>
         )
