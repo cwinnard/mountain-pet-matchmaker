@@ -4,21 +4,42 @@ import './styles/app.css';
 
 import Quiz from './components/Quiz';
 
+import MatchmakerClient from './clients/matchmakerClient';
 import getDogInfo from './data/informationGatherer';
 import json from './data/mpr-dogs-3-13.json';
+
+
+const getMatches = (stateObj) => {
+    return new Promise(function(resolve, reject) {
+        const matchmakerClient = new MatchmakerClient();
+        const answersArray = Object.keys.forEach((key) => { return stateObj[key]; });
+        console.log(answersArray);
+        matchmakerClient.getMatches(answersArray).then((matches) => {
+            resolve(matches);
+        })
+    });
+}
 
 class App extends Component {
     state = {
         phase: 0,
     };
 
+    goToResults(quizState) {
+        getMatches(quizState).then((res) => {
+            console.log(res);
+            this.setState({ phase: 1 });
+        })
+    }
+
     render() {
+        const { goToResults } = this.state;
         const dogInfo = getDogInfo(json);
         return (
             <div className="app">
                 <AppBar position='absolute' style={{height: '50px'}}/>
                 <div className="app-container">
-                    {this.state.phase === 0 && <Quiz />}
+                    {this.state.phase === 0 && <Quiz onCompletion={goToResults} />}
                     {this.state.phase > 0 &&
                         dogInfo.map((info) => (
                             <Card className="dog-card" key={info.id}>

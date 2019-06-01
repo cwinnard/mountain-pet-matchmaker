@@ -1,10 +1,12 @@
 import { Stepper, Step, StepLabel } from '@material-ui/core';
 import React, { Component } from 'react';
 
+import MatchmakerClient from '../clients/matchmakerClient';
 import QuizAnswerOption from './QuizAnswerOption';
 import QuizQuestion from './QuizQuestion';
 
 import { aboutYouQuestions, aboutDogQuestions } from '../data/questionsData';
+
 
 class Quiz extends Component {
     state = {
@@ -43,6 +45,7 @@ class Quiz extends Component {
 
     render() {
         const allQuestions = aboutYouQuestions.concat(aboutDogQuestions);
+        const { onCompletion } = this.props;
         return (
             <div className="quiz">
                 <div className="questions-container">
@@ -75,7 +78,7 @@ class Quiz extends Component {
                         <div className="bottom-spacer" />
                     </div>
                     <div className="submit-container">
-                        <button type="button" className="submit-button" onClick={() => {console.log('hi');}}>
+                        <button type="button" className="submit-button" onClick={() => { onCompletion(this.state); }}>
                             Get match
                         </button>
                     </div>
