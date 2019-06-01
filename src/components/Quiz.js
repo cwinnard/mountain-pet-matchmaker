@@ -46,14 +46,12 @@ class Quiz extends Component {
 
     getMatches() {
         const stateObj = this.state;
-        console.log(stateObj);
         return new Promise(function(resolve, reject) {
             const matchmakerClient = new MatchmakerClient();
             const answersArray = Object.keys(stateObj).map((key) => { return stateObj[key]; });
             // Remove state attribute representing active quiz question
             answersArray.shift();
             matchmakerClient.getMatches(answersArray).then((matches) => {
-                console.log(matches);
                 resolve(matches);
             });
         });
