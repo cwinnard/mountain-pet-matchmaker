@@ -12,4 +12,4 @@ MatchmakerClient.prototype.getMatches = function(answers) {
     });
 };
 
-module.exports = MatchmakerClient;
+export default MatchmakerClient;
