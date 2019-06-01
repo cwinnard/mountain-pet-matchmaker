@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 import QuizAnswerOption from './QuizAnswerOption';
 import QuizQuestion from './QuizQuestion';
 
+import MatchmakerClient from '../clients/matchmakerClient';
 import { aboutYouQuestions, aboutDogQuestions } from '../data/questionsData';
+import ACTIONS from '../redux/action';
 
 
 class Quiz extends Component {
@@ -41,9 +44,24 @@ class Quiz extends Component {
         }
     };
 
+    getMatches() {
+        const stateObj = this.state;
+        console.log(stateObj);
+        return new Promise(function(resolve, reject) {
+            const matchmakerClient = new MatchmakerClient();
+            const answersArray = Object.keys(stateObj).map((key) => { return stateObj[key]; });
+            // Remove state attribute representing active quiz question
+            answersArray.shift();
+            matchmakerClient.getMatches(answersArray).then((matches) => {
+                console.log(matches);
+                resolve(matches);
+            });
+        });
+    }
+
     render() {
         const allQuestions = aboutYouQuestions.concat(aboutDogQuestions);
-        const { onSubmit } = this.props;
+        const { setMatches } = this.props;
         return (
             <div className="quiz">
                 <div className="questions-container">
@@ -77,7 +95,7 @@ class Quiz extends Component {
                         <div className="bottom-spacer" />
                     </div>
                     <div className="submit-container">
-                        <button type="button" className="submit-button" onClick={() => { onSubmit(this.state); }}>
+                        <button type="button" className="submit-button" onClick={() => { this.getMatches().then((matches) => { setMatches(matches) }); }}>
                             Get match
                         </button>
                     </div>
@@ -87,4 +105,8 @@ class Quiz extends Component {
     }
 }
 
-export default Quiz;
+const mapDispatchToProps = dispatch => ({
+    setMatches: setMatches => dispatch(ACTIONS.setMatches(setMatches)),
+});
+
+export default connect(null, mapDispatchToProps)(Quiz);
