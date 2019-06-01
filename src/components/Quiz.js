@@ -63,6 +63,7 @@ class Quiz extends Component {
                                                 <QuizAnswerOption
                                                     key={`${question.key}-${option.text}`}
                                                     option={option.text}
+                                                    optionIndex={index}
                                                     activeSelection={this.state[question.key]}
                                                     makeSelection={() => { this.answerQuestion(question.key, index) }}
                                                     icon={option.icon || ''}

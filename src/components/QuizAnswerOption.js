@@ -1,9 +1,15 @@
 import React from 'react';
 
 
-const QuizAnswerOption = ({ option, activeSelection, makeSelection, icon }) => (
+const QuizAnswerOption = ({
+    option,
+    optionIndex,
+    activeSelection,
+    makeSelection,
+    icon
+}) => (
     <div
-        className={`option ${activeSelection === option ? 'selected' : ''}`}
+        className={`option ${activeSelection === optionIndex ? 'selected' : ''}`}
         onClick={makeSelection}
     >
         <div className="icon-container">
