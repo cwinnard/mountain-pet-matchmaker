@@ -68,9 +68,9 @@ class Quiz extends Component {
                             Meet your match!
                         </div>
                         {allQuestions.map((question, index) => (
-                            <div id={`scroll-item ${index + 1}`} className="scroll-item">
+                            <div id={`scroll-item ${index + 1}`} className="scroll-item"  key={question.key}>
                                 <QuizQuestion activeQuestion={this.state.activeQuestion} activeWhen={index + 1}>
-                                    <div className={`question ${question.key}`} key={question.key}>
+                                    <div className={`question ${question.key}`}>
                                         <div className="text">
                                             {question.text}
                                         </div>

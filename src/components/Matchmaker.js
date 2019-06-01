@@ -1,4 +1,4 @@
-import { AppBar, Card, CardContent, CardMedia } from '@material-ui/core';
+import { Card, CardContent, CardMedia } from '@material-ui/core';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
@@ -10,7 +10,6 @@ class Matchmaker extends Component {
         const { phase, matches } = this.props;
         return (
             <div className="app">
-                <AppBar position='absolute' style={{height: '50px'}}/>
                 <div className="app-container">
                     {phase === 0 && <Quiz />}
                     {phase > 0 &&
