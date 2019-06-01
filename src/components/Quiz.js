@@ -9,12 +9,12 @@ import { aboutYouQuestions, aboutDogQuestions } from '../data/questionsData';
 class Quiz extends Component {
     state = {
         activeQuestion: 1,
-        livingSituation: '',
-        kidsAndPets: '',
-        activityLevel: '',
-        dogAge: '',
-        dogSize: '',
-        commitment: '',
+        livingSituation: null,
+        kidsAndPets: null,
+        activityLevel: null,
+        dogAge: null,
+        dogSize: null,
+        commitment: null,
     };
 
     changeActiveQuestion(direction) {
@@ -59,12 +59,12 @@ class Quiz extends Component {
                                             {question.text}
                                         </div>
                                         <div className="options-container">
-                                            {question.options.map((option) => (
+                                            {question.options.map((option, index) => (
                                                 <QuizAnswerOption
                                                     key={`${question.key}-${option.text}`}
                                                     option={option.text}
                                                     activeSelection={this.state[question.key]}
-                                                    makeSelection={() => { this.answerQuestion(question.key, option.text) }}
+                                                    makeSelection={() => { this.answerQuestion(question.key, index) }}
                                                     icon={option.icon || ''}
                                                 />
                                             ))}

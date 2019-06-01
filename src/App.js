@@ -12,7 +12,9 @@ import json from './data/mpr-dogs-3-13.json';
 const getMatches = (stateObj) => {
     return new Promise(function(resolve, reject) {
         const matchmakerClient = new MatchmakerClient();
-        const answersArray = Object.keys(stateObj).forEach((key) => { return stateObj[key]; });
+        const answersArray = Object.keys(stateObj).map((key) => { return stateObj[key]; });
+        // Remove state attribute representing active quiz question
+        answersArray.shift();
         matchmakerClient.getMatches(answersArray).then((res) => {
             resolve(res.data);
         })
