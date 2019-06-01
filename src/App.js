@@ -12,7 +12,7 @@ import json from './data/mpr-dogs-3-13.json';
 const getMatches = (stateObj) => {
     return new Promise(function(resolve, reject) {
         const matchmakerClient = new MatchmakerClient();
-        const answersArray = Object.keys.forEach((key) => { return stateObj[key]; });
+        const answersArray = Object.keys(stateObj).forEach((key) => { return stateObj[key]; });
         console.log(answersArray);
         matchmakerClient.getMatches(answersArray).then((matches) => {
             resolve(matches);
