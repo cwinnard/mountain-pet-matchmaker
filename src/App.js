@@ -13,9 +13,8 @@ const getMatches = (stateObj) => {
     return new Promise(function(resolve, reject) {
         const matchmakerClient = new MatchmakerClient();
         const answersArray = Object.keys(stateObj).forEach((key) => { return stateObj[key]; });
-        console.log(answersArray);
-        matchmakerClient.getMatches(answersArray).then((matches) => {
-            resolve(matches);
+        matchmakerClient.getMatches(answersArray).then((res) => {
+            resolve(res.data);
         })
     });
 }
@@ -26,8 +25,8 @@ class App extends Component {
     };
 
     goToResults(quizState) {
-        getMatches(quizState).then((res) => {
-            console.log(res);
+        getMatches(quizState).then((matches) => {
+            console.log(matches);
             this.setState({ phase: 1 });
         })
     }
@@ -38,7 +37,7 @@ class App extends Component {
             <div className="app">
                 <AppBar position='absolute' style={{height: '50px'}}/>
                 <div className="app-container">
-                    {this.state.phase === 0 && <Quiz onCompletion={this.goToResults} />}
+                    {this.state.phase === 0 && <Quiz onSubmit={this.goToResults} />}
                     {this.state.phase > 0 &&
                         dogInfo.map((info) => (
                             <Card className="dog-card" key={info.id}>
