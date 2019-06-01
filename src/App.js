@@ -33,13 +33,12 @@ class App extends Component {
     }
 
     render() {
-        const { goToResults } = this.state;
         const dogInfo = getDogInfo(json);
         return (
             <div className="app">
                 <AppBar position='absolute' style={{height: '50px'}}/>
                 <div className="app-container">
-                    {this.state.phase === 0 && <Quiz onCompletion={goToResults} />}
+                    {this.state.phase === 0 && <Quiz onCompletion={this.goToResults} />}
                     {this.state.phase > 0 &&
                         dogInfo.map((info) => (
                             <Card className="dog-card" key={info.id}>

@@ -46,6 +46,7 @@ class Quiz extends Component {
     render() {
         const allQuestions = aboutYouQuestions.concat(aboutDogQuestions);
         const { onCompletion } = this.props;
+        console.log(this.props);
         return (
             <div className="quiz">
                 <div className="questions-container">
