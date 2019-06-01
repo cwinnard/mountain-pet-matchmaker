@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-function MatchmakerClient() {
-};
+function MatchmakerClient() {};
 
 MatchmakerClient.prototype.getMatches = function(answers) {
     return new Promise(function(resolve, reject) {
