@@ -13,7 +13,22 @@ class Matchmaker extends Component {
             <div className="app">
                 <NavBar />
                 <div className="app-container">
-                    {phase === 0 && <Quiz />}
+                    {phase === 0 && (
+                        <div className="quiz-container">
+                            <div className="accent-red">
+                                <div className="dog-mascot" />
+                            </div>
+                            <span className="header">
+                                <span className="header-left">
+                                    Meet&nbsp;
+                                </span>
+                                <span className="header-right">
+                                    Your Match
+                                </span>
+                            </span>
+                            <Quiz />
+                        </div>
+                    )}
                     {phase > 0 &&
                         matches.map((match) => (
                             <Card className="dog-card" key={match.id}>

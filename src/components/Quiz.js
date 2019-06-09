@@ -64,9 +64,6 @@ class Quiz extends Component {
             <div className="quiz">
                 <div className="questions-container">
                     <div id="scroll-container" className="scroll-container">
-                        <div id="scroll-item 0" className="scroll-item quiz-questions-title">
-                            Meet your match!
-                        </div>
                         {allQuestions.map((question, index) => (
                             <div id={`scroll-item ${index + 1}`} className="scroll-item"  key={question.key}>
                                 <QuizQuestion activeQuestion={this.state.activeQuestion} activeWhen={index + 1}>
