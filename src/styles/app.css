@@ -59,23 +59,6 @@
     padding-top: 200px;
 }
 
-.questions-container {
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px; */
-    height: 600px;
-}
-
-.scroll-container {
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    height: 600px;
-}
 
 .hidden {
     visibility: hidden;
@@ -170,9 +153,4 @@
 .dog-image {
     max-width: 220px;
     margin: 0 auto;
-}
-
-.bottom-spacer {
-    height: 200px;
-    background-color: red;
 }

@@ -29,20 +29,20 @@ class Quiz extends Component {
             const newState = prevState;
             newState[key] = response;
             newState.activeQuestion = prevState.activeQuestion + 1;
-            this.scroll(newState.activeQuestion);
+            // this.scroll(newState.activeQuestion);
             return newState;
         });
     };
 
-    scroll(activeQuestion) {
-        const containerEl = document.getElementById('scroll-container');
-        const activeEl = document.getElementById(`scroll-item ${activeQuestion - 1}`);
-        if (activeEl) {
-            setTimeout(function () {
-                containerEl.scrollTop = activeEl.offsetTop + 25;
-            }, 200);
-        }
-    };
+    // scroll(activeQuestion) {
+    //     const containerEl = document.getElementById('scroll-container');
+    //     const activeEl = document.getElementById(`scroll-item ${activeQuestion - 1}`);
+    //     if (activeEl) {
+    //         setTimeout(function () {
+    //             containerEl.scrollTop = activeEl.offsetTop + 25;
+    //         }, 200);
+    //     }
+    // };
 
     getMatches() {
         const stateObj = this.state;
@@ -90,7 +90,6 @@ class Quiz extends Component {
                                 </QuizQuestion>
                             </div>
                         ))}
-                        <div className="bottom-spacer" />
                     </div>
                     <div className="submit-container">
                         <button type="button" className="submit-button" onClick={() => { this.getMatches().then((matches) => { setMatches(matches) }); }}>
