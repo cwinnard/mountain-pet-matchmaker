@@ -2,6 +2,7 @@ import { Card, CardContent, CardMedia } from '@material-ui/core';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
+import NavBar from './NavBar';
 import Quiz from './Quiz';
 
 
@@ -10,6 +11,7 @@ class Matchmaker extends Component {
         const { phase, matches } = this.props;
         return (
             <div className="app">
+                <NavBar />
                 <div className="app-container">
                     {phase === 0 && <Quiz />}
                     {phase > 0 &&

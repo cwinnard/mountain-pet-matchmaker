@@ -1,3 +1,17 @@
+.nav-bar {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A3135;
+}
+
+.nav-item {
+    color: #E2E4E5;
+}
+
 .quiz {
     max-width: 768px;
     margin: 0px auto;
