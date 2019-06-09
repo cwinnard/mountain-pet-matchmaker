@@ -54,6 +54,7 @@
 }
 
 .quiz {
+    width: 70%;
     background-color: #FDFFFF;
     padding-top: 200px;
 }
@@ -101,10 +102,9 @@
 
 .question-text {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
+    justify-content: left;
     font-weight: bold;
+    padding-left: 50px;
 }
 
 .quiz-question {
