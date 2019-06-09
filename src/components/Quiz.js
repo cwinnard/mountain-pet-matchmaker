@@ -68,7 +68,10 @@ class Quiz extends Component {
                             <div id={`scroll-item ${index + 1}`} className="scroll-item"  key={question.key}>
                                 <QuizQuestion activeQuestion={this.state.activeQuestion} activeWhen={index + 1}>
                                     <div className={`question ${question.key}`}>
-                                        <div className="text">
+                                        <div className="question-number">
+                                            {index + 1}
+                                        </div>
+                                        <div className="question-text">
                                             {question.text}
                                         </div>
                                         <div className="options-container">
