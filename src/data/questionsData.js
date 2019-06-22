@@ -39,7 +39,6 @@ export const aboutYouQuestions = [
         options: [
             {text: 'kids', icon: kidIcon},
             {text: 'pets', icon: petsIcon},
-            {text: 'both', icon: bothIcon},
             {text: 'neither', icon: neitherIcon},
         ]
     },

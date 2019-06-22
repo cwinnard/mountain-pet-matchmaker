@@ -32,7 +32,7 @@ class Quiz extends Component {
                 const prevAnswer = prevState.kidsAndPets;
                 if ((response === 0 && prevAnswer === 1) || (response === 1 && prevAnswer === 0)) {
                     newState.kidsAndPets = 2;
-                } else if (response === 3) {
+                } else if (response === 2) {
                     newState.kidsAndPets = 3;
                 } else {
                     newState.kidsAndPets = response;
