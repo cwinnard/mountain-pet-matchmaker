@@ -109,8 +109,11 @@
     margin: 20px 0;
 }
 
+.option-paper {
+    width: 25%;
+}
+
 .option {
-    width: 120px;
     height: 80px;
     max-width: 80px;
     margin: 0 auto;
