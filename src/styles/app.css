@@ -110,20 +110,20 @@
 }
 
 .option-paper {
-    width: 25%;
-}
-
-.option {
-    height: 80px;
-    max-width: 80px;
-    margin: 0 auto;
-    display: inline-block;
+    width: 30%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .icon-container {
     width: 80px;
     height: 50px;
-    margin: 0 auto;
+}
+
+.selected {
+    border: 1px black solid;
 }
 
 .question-icon {
@@ -141,16 +141,6 @@
     width: 35px;
     height: 35px;
     padding: 15px;
-}
-
-.option-text {
-    width: 80px;
-    height: 140px;
-    margin: 0 auto;
-}
-
-.selected {
-    border: 1px black solid;
 }
 
 .scroll-gradient {

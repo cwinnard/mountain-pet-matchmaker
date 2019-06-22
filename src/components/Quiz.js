@@ -25,13 +25,30 @@ class Quiz extends Component {
     };
 
     answerQuestion(key, response) {
-        this.setState(prevState => {
-            const newState = prevState;
-            newState[key] = response;
-            newState.activeQuestion = prevState.activeQuestion + 1;
-            // this.scroll(newState.activeQuestion);
-            return newState;
-        });
+        if (key === 'kidsAndPets') {
+            this.setState(prevState => {
+                const newState = prevState;
+                const prevAnswer = prevState.kidsAndPets;
+                console.log(response);
+                console.log(prevAnswer);
+                if ((response === 0 && prevAnswer === 1) || (response === 1 && prevAnswer === 0)) {
+                    newState.kidsAndPets = 2;
+                } else if (response === 3) {
+                    newState.kidsAndPets = 3;
+                } else {
+                    newState.kidsAndPets = response;
+                }
+                return newState;
+            });
+        } else {
+            this.setState(prevState => {
+                const newState = prevState;
+                newState[key] = response;
+                newState.activeQuestion = prevState.activeQuestion + 1;
+                // this.scroll(newState.activeQuestion);
+                return newState;
+            });
+        }
     };
 
     // scroll(activeQuestion) {
@@ -60,6 +77,7 @@ class Quiz extends Component {
     render() {
         const allQuestions = aboutYouQuestions.concat(aboutDogQuestions);
         const { setMatches } = this.props;
+        console.log(this.state);
         return (
             <div className="quiz">
                 <div className="questions-container">
