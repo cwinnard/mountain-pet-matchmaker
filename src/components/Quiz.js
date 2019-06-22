@@ -30,6 +30,7 @@ class Quiz extends Component {
             this.setState(prevState => {
                 const newState = prevState;
                 const prevAnswer = prevState.kidsAndPets;
+                newState.activeQuestion = prevState.activeQuestion + 1;
                 if ((response === 0 && prevAnswer === 1) || (response === 1 && prevAnswer === 0)) {
                     newState.kidsAndPets = 2;
                 } else if (response === 2) {

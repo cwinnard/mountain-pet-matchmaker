@@ -115,6 +115,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .icon-container {
@@ -122,13 +123,20 @@
     height: 50px;
 }
 
-.selected {
-    border: 1px black solid;
-}
-
 .question-icon {
     width: 50px;
     height: 50px;
+}
+
+.check {
+    opacity: 0.8;
+    color: lightgrey;
+    margin-right: 10px;
+    transition: color 350ms !important;
+}
+
+.selected {
+    color: #C31034;
 }
 
 .small {
