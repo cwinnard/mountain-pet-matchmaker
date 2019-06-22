@@ -116,6 +116,20 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+}
+
+.indicator {
+    position: absolute;
+    width: 3px;
+    height: 40px;
+    background-color: lightgrey;
+    transition: color 250ms;
+    border-radius: 3px;
+}
+
+.indicator.selected {
+    background-color: #C31034;
 }
 
 .icon-container {

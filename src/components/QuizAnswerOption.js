@@ -14,6 +14,7 @@ const QuizAnswerOption = ({
         className="option-paper"
         onClick={makeSelection}
     >
+        <div className={`indicator ${activeSelection === optionIndex ? 'selected' : ''}`} />
         <div className="icon-container">
             <img className={`question-icon ${option}`} src={icon} alt={`${option} icon`}/>
         </div>
