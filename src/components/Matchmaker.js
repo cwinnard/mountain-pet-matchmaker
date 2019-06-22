@@ -17,6 +17,7 @@ class Matchmaker extends Component {
                         <div className="quiz-container">
                             <div className="accent-red">
                                 <div className="dog-mascot" />
+                                <div className="dog-mascot-mobile" />
                             </div>
                             <span className="header">
                                 <span className="header-left">
