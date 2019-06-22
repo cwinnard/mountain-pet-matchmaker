@@ -25,12 +25,11 @@ class Quiz extends Component {
     };
 
     answerQuestion(key, response) {
+        // kids and pets get special treatment to allow multiple selections
         if (key === 'kidsAndPets') {
             this.setState(prevState => {
                 const newState = prevState;
                 const prevAnswer = prevState.kidsAndPets;
-                console.log(response);
-                console.log(prevAnswer);
                 if ((response === 0 && prevAnswer === 1) || (response === 1 && prevAnswer === 0)) {
                     newState.kidsAndPets = 2;
                 } else if (response === 3) {
