@@ -128,11 +128,15 @@
     height: 50px;
 }
 
+.option-text {
+    margin-left: -85px;
+}
+
 .check {
     opacity: 0.8;
     color: lightgrey;
     margin-right: 10px;
-    transition: color 350ms !important;
+    transition: color 250ms !important;
 }
 
 .selected {
