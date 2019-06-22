@@ -205,4 +205,8 @@
     .dog-mascot-mobile {
         display: inline;
     }
+
+    .quiz {
+        width: 100%;
+    }
 }
